@@ -71,7 +71,9 @@ uam/
 2. Backend Setup
 
 cd backend
+
 npm install
+
 npm run dev
 
 
@@ -80,7 +82,9 @@ Runs on http://localhost:5000
 3. Frontend Setup
 
 cd frontend
+
 npm install
+
 npm start
 
 
@@ -89,4 +93,5 @@ Runs on http://localhost:3000
 4. Environment Variables (create .env in backend/)
 
 MONGO_URI=your_mongodb_connection
+
 JWT_SECRET=your_secret_key
